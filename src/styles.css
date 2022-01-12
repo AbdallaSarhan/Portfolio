@@ -1,0 +1,389 @@
+body {
+  font-family: "Playfair Display", serif;
+  background-color: aliceblue;
+}
+
+section {
+  background-color: white;
+  /* border: solid black 1px; */
+}
+.hero {
+  /* background-color: #1c1d25; */
+  background-image: url(images/pexels-nadezhda-moryak-6063606.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+  outline: none;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 31px;
+}
+
+li {
+  /* width: 200px; */
+  text-decoration: none;
+}
+h1 {
+  font-size: 90px;
+  margin: 0;
+}
+h2 {
+  font-size: 60px;
+}
+p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #bd6666;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #ce7e7e;
+}
+.button:active {
+  background-color: #a9a9a9;
+  color: gray;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.logo {
+  height: 150px;
+  width: 200px;
+}
+
+.social {
+  margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  padding-bottom: 120px;
+  background-image: url(images/pexels-gradienta-7130538.jpg);
+  background-size: cover;
+  /* background-color: rgb(167, 200, 214); */
+}
+.about {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding-top: 30px;
+}
+.about:hover {
+  color: #bd6666;
+}
+
+.sub-section-alt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: rgb(109, 109, 109); */
+  background-image: url(images/pexels-gradienta-7130538.jpg);
+  background-size: cover;
+  padding: 80px;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+
+  padding-bottom: 10px;
+}
+.headshot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.resume {
+  background-color: #bd6666;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 200px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.resume:hover {
+  background-color: #ce7e7e;
+}
+.resume:active {
+  background-color: #a9a9a9;
+}
+
+.project-card {
+  width: 550px;
+  height: 700px;
+  box-shadow: 10px 10px 30px rgb(31, 31, 31);
+  margin: 10px;
+  background-color: white;
+  border: 2px solid #bd6666;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rgb(109, 109, 109); */
+  background-image: url(images/pexels-gradienta-7130538.jpg);
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1050px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+  }
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 290px;
+  border-radius: 75px;
+  height: 295px;
+}
+.project-specialimg {
+  margin-top: 25px;
+  width: 215px;
+  border-radius: 75px;
+  height: 295px;
+}
+.project-plantimg {
+  margin-top: 25px;
+  width: 215px;
+  border-radius: 75px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #bd6666;
+}
+.project-link:hover {
+  color: #ce7e7e;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.dash:hover {
+  color: #c57171;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
+.form {
+  display: block;
+}
+
+@media only screen and (max-width: 1050px) {
+  .logo {
+    height: 100;
+    width: 100;
+  }
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+
+  ul.navlist {
+    display: none;
+    background-color: #333442;
+  }
+  nav {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #333442;
+  }
+
+  ul.show {
+    display: block;
+  }
+  img.show {
+    display: block;
+  }
+}
+.contact {
+  height: 100vh;
+  width: 100%;
+  /* background-color: aliceblue; */
+  background-image: url(images/pexels-gradienta-7130538.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 150px;
+}
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-image: url(images/pexels-gradienta-7130538.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.form-group {
+  width: 100%;
+  margin-top: 50px;
+  outline: none;
+}
+.form-group input,
+.form-group textarea {
+  width: 99%;
+  padding: 11px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+textarea {
+  resize: vertical;
+}
+label {
+  font-weight: bold;
+}
+button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 5px;
+  color: #bd6666;
+  background-color: rgb(255, 246, 246);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease-in;
+}
+button[type="submit"]:hover {
+  background-color: #ce7e7e;
+}
+
+#status {
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+.list {
+  flex-direction: column;
+  margin: 0;
+}
+.item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+.title {
+  text-align: center;
+}
